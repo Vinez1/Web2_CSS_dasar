@@ -77,4 +77,9 @@ Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokum
         </style>
     </head>
 
-    
+
+Selanjutnya simpan perubahan yang ada, dan lakukan 
+refresh pada browser untuk melihat hasilnya.
+
+![hasil nomor 2](foto/hasil_nomor2.png)
+<p align="center">Gambar2.1 Penambahan CSS pada HTML.
