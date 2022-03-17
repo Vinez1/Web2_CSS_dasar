@@ -12,7 +12,7 @@ Mendapatkan tugas dari dosen Pemrograman Web pada pertemuan ke-2 ,yaitu:
 
 # Langkah-langkah praktikum
 
-## 1. Membuat dokumen HTML
+**1. Membuat dokumen HTML**
 
 Buatlah dokumen HTML seperti dibawah ini.
 
@@ -35,17 +35,46 @@ Buatlah dokumen HTML seperti dibawah ini.
         <!-- CSS ID Selector -->
         <div id="intro">
             <h1>Hello World</h1>
-            <p>Kami sedang belajar HTML dan CSS dasar, pada mata kuliah <b>Pemrograman
-    Web</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat
+            <p>Kami sedang belajar HTML dan CSS dasar, pada mata kuliah <b>PemrogramanWeb</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat
     adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML
     dan CSS.</p>
             <!-- CSS Class Selector -->
             <a class="button btn-primary" href="#intro">Informasi selengkapnya.</a>
         </div>
-    </body>
+    </body>"
     </html>
+
 
 Selanjutnya buka file HTML pada browser.
 
 ![tampilan web](foto/tampilan_web.png)
+<p align="center"> Gambar 2.1 Tampilan Web HTML.
+<br>
 
+**2. Mendeklarasikan CSS internal.**
+
+Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokumen.
+
+    <head>
+        <title>CSS Dasar</title>
+        <style>
+            body {
+                font-family:'Open Sans', sans-serif;
+            }
+            header {
+                min-height: 80px;
+                border-bottom:1px solid #77CCEF;
+            }
+            h1 {
+                font-size: 24px;
+                color: #0F189F;
+                text-align: center;
+                padding: 20px 10px;
+            }
+            h1 i {
+                color:#6d6a6b;
+            }
+        </style>
+    </head>
+
+    
