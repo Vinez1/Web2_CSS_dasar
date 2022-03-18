@@ -35,9 +35,13 @@ Buatlah dokumen HTML seperti dibawah ini.
         <!-- CSS ID Selector -->
         <div id="intro">
             <h1>Hello World</h1>
-            <p>Kami sedang belajar HTML dan CSS dasar, pada mata kuliah <b>PemrogramanWeb</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat
-    adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML
-    dan CSS.</p>
+            <p>Kami sedang belajar HTML dan CSS dasar, pada mata kuliah
+            <b>Pemrograman Web</b> di 
+            <i>Universitas Pelita Bangsa</i>. 
+            Pelajaran pertama yang kami dapat
+            adalah membuat tampilan web sederhana dalam 
+            rangka mengenal tag-tag dasar HTML
+            dan CSS.</p>
             <!-- CSS Class Selector -->
             <a class="button btn-primary" href="#intro">Informasi selengkapnya.</a>
         </div>
@@ -49,8 +53,8 @@ Selanjutnya buka file HTML pada browser.
 
 ![tampilan web](foto/tampilan_web.png)
 <p align="center"> Gambar 2.1 Tampilan Web HTML.
-<br>
 
+<br>
 **2. Mendeklarasikan CSS internal.**
 
 Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokumen.
@@ -79,7 +83,16 @@ Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokum
 
 
 Selanjutnya simpan perubahan yang ada, dan lakukan 
-refresh pada browser untuk melihat hasilnya.
+refresh pada browser untuk3. Menambahkan Inline CSS melihat hasilnya.
 
 ![hasil nomor 2](foto/hasil_nomor2.png)
 <p align="center">Gambar2.1 Penambahan CSS pada HTML.
+
+<br>
+**3. Menambahkan Inline CSS**
+
+Kemudian tambahkan deklarasi inline CSS pada tag    `<p>` seperti berikut.
+
+    <p style="text-align: center; color: #ccd8e4;">
+
+Simpan kembali dan refresh kembali browser untuk melihat perubahannya.
