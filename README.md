@@ -13,6 +13,7 @@
 Mendapatkan tugas dari dosen Pemrograman Web pada pertemuan ke-2 ,yaitu:
 
 ![foto tugas](foto/foto1.png)
+<p align="center"> Gambar 2.1 Tugas.
 
 # Langkah-langkah praktikum
 
@@ -20,11 +21,11 @@ Mendapatkan tugas dari dosen Pemrograman Web pada pertemuan ke-2 ,yaitu:
 
 Buatlah dokumen HTML seperti dibawah ini.
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CSS Dasar</title>
     </head>
     <body>
@@ -51,12 +52,16 @@ Buatlah dokumen HTML seperti dibawah ini.
         </div>
     </body>"
     </html>
+ dan hasil di text editornya akan seperti ini.
 
+ ![nomor1](foto/nomor1.png)
+ <p align="center"> Gambar 2.2 Tampilan text editor.
 
+<br>
 Selanjutnya buka file HTML pada browser.
 
 ![tampilan web](foto/tampilan_web.png)
-<p align="center"> Gambar 2.1 Tampilan Web HTML.
+<p align="center"> Gambar 2.3 Tampilan Web HTML.
 
 <br>
 
@@ -88,27 +93,53 @@ Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokum
 
 
 Selanjutnya simpan perubahan yang ada, dan lakukan 
-refresh pada browser untuk3. Menambahkan Inline CSS melihat hasilnya.
+refresh pada browser untuk . Menambahkan Inline CSS melihat hasilnya.
 
 ![hasil nomor 2](foto/hasil_nomor2.png)
-<p align="center">Gambar 2.1 Penambahan CSS pada HTML.
+<p align="center">Gambar 2.4 Penambahan CSS pada HTML.
 
 <br>
+
 **3. Menambahkan Inline CSS**
 
 Kemudian tambahkan deklarasi inline CSS pada tag    `<p>` seperti berikut.
 
     <p style="text-align: center; color: #ccd8e4;">
 
-contohnya.
+contoh codingannya.
+![coding no 3](foto/coding_no3.png)
+<p align="center"> Gambar 2.5 codingan di text editor.
 
 Simpan kembali dan refresh kembali browser untuk melihat perubahannya.
 
 ![inline css](foto/nomor3.png)
-<p align="center">Gambar 2.3 Penambahan Inline CSS
+<p align="center">Gambar 2.6 Penambahan Inline CSS.
 
 <br>
 
 **4. Membuat CSS Eksternal**
+
+Membuat file baru dengan nama <b>style_eksternal.css</b> lalu buatlah deklarasi CSS berikut.
+
+![css eksternal](foto/nav_css%20.png)
+<p align="center">Gambar 2.7 penambahan CSS
+
+<br>
+kemudian menambahkan tag `<link>` untuk menuju link css 
+yang sudah dibuat pada bagian tag `<head>`.
+
+![link css](foto/css%20eksternal.png)
+<p align="center">Gambar 2.8 link CSS
+
+<br>
+Selanjutnya di simpan lalu di refresh pada browser untuk melihat perubahannya.
+
+![hasil web](foto/hasil_nomor4.png)
+<p align="center">Gambar 2.9 Tampilan Eksternal CSS
+
+<br>
+
+**5. Penambahan CSS Selector**
+
 
 
