@@ -124,14 +124,12 @@ Membuat file baru dengan nama <b>style_eksternal.css</b> lalu buatlah deklarasi 
 ![css eksternal](foto/nav_css%20.png)
 <p align="center">Gambar 2.7 penambahan CSS
 
-<br>
-kemudian menambahkan tag `<link>` untuk menuju link css 
+kemudian menambahkan tag ``<link>`` untuk menuju link css 
 yang sudah dibuat pada bagian tag `<head>`.
 
 ![link css](foto/css%20eksternal.png)
 <p align="center">Gambar 2.8 link CSS
 
-<br>
 Selanjutnya di simpan lalu di refresh pada browser untuk melihat perubahannya.
 
 ![hasil web](foto/hasil_nomor4.png)
@@ -145,9 +143,8 @@ Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector.
 Pada file <b>style_eksternal.css</b>, tambahkan kode berikut.
 
 ![coding no5](foto/coding_no5.png)
-<p align="center">Gambar 2.10 Codingan CSS ID dan Class Selector
+<p align="center">Gambar 2.10 Codingan CSS ID dan Class Selector.
 
-<br>
 Kemudian simpan kembali dan refresh pada browser untuk melihat perubahannya.
 
 ![CSS ID dan Class Selector](foto/hasil_nomor5.png)
