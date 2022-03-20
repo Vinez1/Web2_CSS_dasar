@@ -141,5 +141,14 @@ Selanjutnya di simpan lalu di refresh pada browser untuk melihat perubahannya.
 
 **5. Penambahan CSS Selector**
 
+Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector.
+Pada file <b>style_eksternal.css</b>, tambahkan kode berikut.
 
+![coding no5](foto/coding_no5.png)
+<p align="center">Gambar 2.10 Codingan CSS ID dan Class Selector
 
+<br>
+Kemudian simpan kembali dan refresh pada browser untuk melihat perubahannya.
+
+![CSS ID dan Class Selector](foto/hasil_nomor5.png)
+<p align="center">Gambar 2.10 Tampilan CSS ID dan Class Selector
